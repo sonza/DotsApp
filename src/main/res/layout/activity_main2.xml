@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sonza.dotsfinal.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE DISPLAY"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:id="@+id/text"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b00"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b02"
+            android:layout_alignBottom="@+id/b02"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b01"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b00"
+            android:layout_alignBottom="@+id/b00"
+            android:layout_alignLeft="@+id/b11"
+            android:layout_alignStart="@+id/b11" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b02"
+            android:onClick="onClick"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/b12"
+            android:layout_alignStart="@+id/b12"
+            android:layout_marginTop="17dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b03"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b02"
+            android:layout_alignBottom="@+id/b02"
+            android:layout_alignLeft="@+id/b33"
+            android:layout_alignStart="@+id/b33" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b04"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b03"
+            android:layout_alignBottom="@+id/b03"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b10"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b12"
+            android:layout_alignBottom="@+id/b12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b11"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b10"
+            android:layout_alignBottom="@+id/b10"
+            android:layout_alignLeft="@+id/b21"
+            android:layout_alignStart="@+id/b21" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b12"
+            android:onClick="onClick"
+            android:layout_above="@+id/b22"
+            android:layout_alignLeft="@+id/b22"
+            android:layout_alignStart="@+id/b22"
+            android:layout_marginBottom="34dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b13"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b12"
+            android:layout_alignBottom="@+id/b12"
+            android:layout_alignLeft="@+id/b03"
+            android:layout_alignStart="@+id/b03" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b14"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b13"
+            android:layout_alignBottom="@+id/b13"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b20"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b21"
+            android:layout_alignBottom="@+id/b21"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b21"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b22"
+            android:layout_alignBottom="@+id/b22"
+            android:layout_alignLeft="@+id/b31"
+            android:layout_alignStart="@+id/b31" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b22"
+            android:onClick="onClick"
+            android:layout_above="@+id/b30"
+            android:layout_alignLeft="@+id/b32"
+            android:layout_alignStart="@+id/b32"
+            android:layout_marginBottom="34dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b23"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b22"
+            android:layout_alignBottom="@+id/b22"
+            android:layout_alignLeft="@+id/b33"
+            android:layout_alignStart="@+id/b33" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b24"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b23"
+            android:layout_alignBottom="@+id/b23"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b30"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b31"
+            android:layout_alignBottom="@+id/b31"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b31"
+            android:onClick="onClick"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/b30"
+            android:layout_toEndOf="@+id/b30"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b32"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b31"
+            android:layout_alignBottom="@+id/b31"
+            android:layout_centerHorizontal="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b33"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b34"
+            android:layout_alignBottom="@+id/b34"
+            android:layout_toRightOf="@+id/b32"
+            android:layout_toEndOf="@+id/b32"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/b34"
+            android:layout_alignBaseline="@+id/b32"
+            android:layout_alignBottom="@+id/b32"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b40"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b41"
+            android:layout_alignBottom="@+id/b41"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b41"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b42"
+            android:layout_alignBottom="@+id/b42"
+            android:layout_alignLeft="@+id/b31"
+            android:layout_alignStart="@+id/b31" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b42"
+            android:onClick="onClick"
+            android:layout_below="@+id/b32"
+            android:layout_alignLeft="@+id/b32"
+            android:layout_alignStart="@+id/b32"
+            android:layout_marginTop="30dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b43"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b42"
+            android:layout_alignBottom="@+id/b42"
+            android:layout_alignLeft="@+id/b53"
+            android:layout_alignStart="@+id/b53" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b44"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b43"
+            android:layout_alignBottom="@+id/b43"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b50"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b51"
+            android:layout_alignBottom="@+id/b51"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b51"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b52"
+            android:layout_alignBottom="@+id/b52"
+            android:layout_alignLeft="@+id/b21"
+            android:layout_alignStart="@+id/b21" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b52"
+            android:onClick="onClick"
+            android:layout_marginTop="37dp"
+            android:layout_below="@+id/b42"
+            android:layout_alignLeft="@+id/b42"
+            android:layout_alignStart="@+id/b42" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b53"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b52"
+            android:layout_alignBottom="@+id/b52"
+            android:layout_alignLeft="@+id/b33"
+            android:layout_alignStart="@+id/b33" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b54"
+            android:onClick="onClick"
+            android:layout_alignBaseline="@+id/b53"
+            android:layout_alignBottom="@+id/b53"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

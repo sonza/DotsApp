@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_instructions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#696969"
+    android:weightSum="1"
+    tools:context="com.example.sonza.dotsfinal.Instructions">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:id="@+id/title1"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="1. Players alternate tapping any two adjacent dots to make a line. \n\n 2.The player to complete a box(ie: draw the fourth line of a box) gets a point and an extra turn. \n\n 3.The goal is to complete more boxes than your opponent. Whoever has the most points once the grid is complete is deemed the winner. \n\n 4.DO NOT go over lines drawn by the opponent, draw non-adjacent lines, or take an extra turn. \n\n 5. HAVE FUN!"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:textColor="#ffffff"
+        android:id="@+id/inst"
+        android:layout_height="wrap_content" />
+</LinearLayout>

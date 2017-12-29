@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#696969"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sonza.dotsfinal.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DroidBaes Presents:"
+        android:id="@+id/presents"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="DOTS"
+        android:layout_gravity="center"
+        android:textSize="45sp"
+        android:layout_marginTop="10sp"
+        android:textColor="#ffffff"
+        android:id="@+id/textview"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Build-A-Box Game"
+        android:id="@+id/tag"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10sp"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:typeface="serif"
+        android:width="100sp"
+        android:layout_marginTop="120sp"
+        android:onClick="start"
+        android:textSize="26sp"
+        android:text="START"
+        android:layout_weight="0.03"
+        android:id="@+id/button1"/>
+
+    <Button
+        android:text="INSTRUCTIONS"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:typeface="serif"
+        android:onClick="instruct"
+        android:textSize="26sp"
+        android:layout_weight="0.03"
+        android:id="@+id/button2" />
+
+
+</LinearLayout>
